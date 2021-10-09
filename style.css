@@ -1,12 +1,18 @@
+* {
+    background-color: palegreen;
+}
+
 header {
     background: linear-gradient(105deg, rgba(255,255,255,.2) 39%, rgba(51,56,57,1) 96%);
     display: block;
 }
+
 body {
     background-color: palegreen;
     text-align: left;
 }
-h1 {
+
+#title {
     color: navy;
     font-size: 2rem;
 }
@@ -40,7 +46,7 @@ ul {
 }
 
 ul li {
-    color: hsla(10, 100, 50, 10)
+    color: hsl(10, 100, 50)
 }
 
 ol{
@@ -93,5 +99,31 @@ footer {
     grid-template-rows: auto;
     column-gap: 10px;
 }
+
+p, i {
+    color: red;
+}
+
+div p {
+    color: red;
+}
+
+div > p {
+    color: red;
+}
+
+div + p {
+    color: red;
+}
+
+h3 ~ ul {
+    color: red; 
+}
+
+div.attendance {
+    color: red;
+}
+
+
 
 
