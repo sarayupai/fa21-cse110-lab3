@@ -1,0 +1,97 @@
+header {
+    background: linear-gradient(105deg, rgba(255,255,255,.2) 39%, rgba(51,56,57,1) 96%);
+    display: block;
+}
+body {
+    background-color: palegreen;
+    text-align: left;
+}
+h1 {
+    color: navy;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.3em;
+    color: rgb(155, 22, 155);
+    font-family: 'Ephesis', cursive;
+}
+
+h3 {
+    font-size: 1.1em;
+    color: #678999
+}
+
+p {
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+    color: hsl(10, 100, 50);
+}
+
+em {
+        text-decoration: underline;
+}
+
+ul {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+ul li {
+    color: hsla(10, 100, 50, 10)
+}
+
+ol{
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px; 
+}
+
+form {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 15px 15px 15px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 1px;
+    display: inline-block;
+    min-width: 50px;
+    max-width: 500px;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+textarea {
+    width: 500px;
+    height: 50px;
+}
+
+button:hover {
+    color: blue;
+}
+
+button:active {
+    color: red;
+}
+
+footer {
+    display: grid;
+}
+
+@media (min-width: 900px) {
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 10px 10px 10px 10px;
+    grid-template-rows: auto;
+    column-gap: 10px;
+}
+
+
