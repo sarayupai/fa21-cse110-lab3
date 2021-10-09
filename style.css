@@ -6,10 +6,12 @@ header {
     background: linear-gradient(105deg, rgba(255,255,255,.2) 39%, rgba(51,56,57,1) 96%);
     display: block;
 }
+
 body {
     background-color: palegreen;
     text-align: left;
 }
+
 #title {
     color: navy;
     font-size: 2rem;
@@ -101,6 +103,7 @@ footer {
 p, i {
     color: red;
 }
+
 div p {
     color: red;
 }

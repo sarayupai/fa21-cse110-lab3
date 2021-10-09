@@ -3,6 +3,10 @@
     <head>
         <meta name="author" content="Sarayu Pai">
         <link rel="icon" href="https://cse110-f2021.github.io/Lab2_ScavengerHunt/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
         <title>Meeting Notes</title>
     </head>
     <body>
@@ -10,14 +14,14 @@
             <h1>Title</h1>
             <h2>Topic + Date</h2>
             <nav>
-                <a href="/Lab2/README.md">readme</a>
+                <a href="/fa21-cse110-lab3/README.md">readme</a>
             </nav>
         </header>
         <hr>
         <main>
             <section>
                 <h3>Attendance</h3>
-                <div>
+                <div class="attendance">
                     <ul>
                         <li><b>Person 1: </b>Present/Absent</li>
                         <li><b>Person 2: </b>Present/Absent</li>
@@ -80,15 +84,17 @@
         </main>
         <footer>
             <h3>Meeting Notes Video + Audio</h3>
-            <a href="https://canvas.ucsd.edu/courses/30736/assignments/361772">This contains a description of meeting notes content</a>
-            <br>
-            <audio controls>
-                <source src="file_example_MP3_700KB.mp3" type="audio/mpeg">
-            </audio>
-            <br>
-            <video width="320" height="240" controls>
-                <source src="file_example_MP4_480_1_5MG" type="video/mp4">
-            </video>
+            <div class="container">
+                <a href="https://canvas.ucsd.edu/courses/30736/assignments/361772">This contains a description of meeting notes content</a>
+                <br>
+                <audio controls>
+                    <source src="file_example_MP3_700KB.mp3" type="audio/mpeg">
+                </audio>
+                <br>
+                <video width="320" height="240" controls>
+                    <source src="file_example_MP4_480_1_5MG" type="video/mp4">
+                </video>
+            </div>
             <details>
                 <summary>Meeting Summary</summary>
                 <p>This is a <span>summary</span> of the meeting.</p>
